@@ -25,8 +25,8 @@ layout: default
 | **Opus_SPF** | <audio src="res/audio/vctk48k_male/Opus_SPF/3.wav" controls preload></audio>   | <audio src="res/audio/vctk48k_female/Opus_SPF/21.wav" controls preload></audio>   |
 
 
-<sup>symAD: `symmetric AudioDec (autoencoder)` </sup>  
-<sup>AudioDec: `AudioDec (encoder + multi-group HiFi-GAN vocoder)` </sup>  
+<sup>symAD: `symmetric AudioDec` </sup>  
+<sup>AudioDec: `AudioDec (w/ multi-group HiFi-GAN vocoder)` </sup>  
 <sup>**ScoreDec**: `the proposed ScoreDec` </sup>  
 <sup>Opus: `Opus w/ 24kbps for mono audio` </sup>  
 <sup>**Opus_SPF**: `the proposed score-based post-filter combined with Opus` </sup>  
