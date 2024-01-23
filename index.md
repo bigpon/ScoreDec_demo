@@ -5,7 +5,7 @@ layout: default
 <center><I> Yi-Chiao Wu, Dejan Marković, Steven Krenn, Israel D. Gebru, and Alexander Richard </I></center> 
 <center> Meta Reality Labs Research, USA </center> <br /> 
 
-This page is the demo of ScoreDec
+This page is the demo of ScoreDec [[paper](https://arxiv.org/abs/2401.12160)]
 
 ## **Abstract**  
 <p align="justify"> Although recent mainstream waveform-domain end-to-end (E2E) neural audio codecs achieve impressive coded audio quality with a very low bitrate, the quality gap between the coded and natural audio is still significant. A generative adversarial network (GAN) training is usually required for these E2E neural codecs because of the difficulty of direct phase modeling. However, such adversarial learning hinders these codecs from preserving the original phase information. To achieve human-level naturalness with a reasonable bitrate, preserve the original phase, and get rid of the tricky and opaque GAN training, we develop a score-based diffusion post-filter (SPF) in the complex spectral domain and combine our previous AudioDec with the SPF to propose ScoreDec, which can be trained using only spectral and score-matching losses. Both the objective and subjective experimental results show that ScoreDec with a 24 kbps bitrate encodes and decodes full-band 48 kHz speech with human-level naturalness and well-preserved phase information. </p>
